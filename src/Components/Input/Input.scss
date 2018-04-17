@@ -1,0 +1,40 @@
+.Input {
+    &__description {
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      width: 100%;
+      text-align: left;
+      color: #1F1C40;
+      letter-spacing: 0.03px;
+      font-family: arial;
+      margin-bottom: 10px;
+      font-size: 11px;
+    }
+
+    &__subcontainer {
+      width:100%;
+    }
+
+    &__item {
+      background: #FFFFFF;
+      border: 1px solid #E2E2E2;
+      border-radius: 3px;
+      color: #333;
+      padding: 10px;
+      width: calc(100% - 20px);
+      /* @TODO 
+        - Use Flexbox / Webcomponents Grid instead of adding additional with buton 
+      */ 
+      &--withButton {
+        width: 60%;
+      }
+    }
+
+    &__button {
+      width: 34%;
+      display: inline-block;
+      float: right;
+    }
+}
+  
+

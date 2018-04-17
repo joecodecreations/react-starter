@@ -1,0 +1,36 @@
+.Footer {
+  background: #FFFFFF;
+  color: #656565;
+  margin: 0px;
+  text-align:center;
+  margin-top:80px;
+
+  &__item {
+    font-family: Arial;
+    font-size: 16px;
+    color: #656565;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.02px;
+    text-decoration:none;
+    list-style-type: none;
+    display:inline-block;
+    font-weight:100;
+    padding: 10px;
+    cursor:pointer;
+
+    &:hover {
+     background:#999;
+     color:white;
+    }
+  }
+
+  &__container {
+    width:500px;
+    margin:0 auto;
+  }
+
+
+
+
+}
+

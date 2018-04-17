@@ -1,0 +1,36 @@
+.Button {
+    font-family: arial, sans-serif;
+    cursor:pointer;
+    color: #FFFFFF;
+    letter-spacing: 0.03px;
+    border:none;
+    text-align: center;
+
+    &--dark{
+        background: #342F66;
+        padding: 10px;
+        padding-left: 39px;
+        padding-right: 39px;
+        float: right;
+        font-size: 12px;
+        width:100%;
+
+        &:hover {
+            background: rgba(138,117,189,0.58);
+            color:#000;
+        }
+    }
+
+    &--light {
+        width:100%;
+        background: rgba(138,117,189,0.58);
+        font-size: 20px;
+        padding:7px;
+        font-weight:100;
+        &:hover {
+            background:#342F66;
+            color:white;
+        }
+    }
+
+}

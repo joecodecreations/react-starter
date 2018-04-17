@@ -1,0 +1,35 @@
+.Navigation {
+  display: inline-block;
+  right: 8%;
+  position: absolute;
+
+  &__item{
+    font-family: Arial;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.02px;
+    text-decoration:none;
+    list-style-type: none;
+    display:inline-block;
+    font-weight:100;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 9px;
+
+    &:hover {
+      color:rgba(255,255,255,.4);
+
+    }
+
+    &--emphasis {
+      padding-right: 16px; 
+      padding-left:16px;
+      background: rgba(77,66,103,0.58);
+      &:hover {
+        color:rgba(255,255,255,.4);
+      }
+    }
+
+  }
+}

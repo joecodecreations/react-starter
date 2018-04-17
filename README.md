@@ -1,2 +1,4 @@
-# react-starter
-React starter
+# Reactjs Starter
+
+Quick starting point for ReactJS 
+
